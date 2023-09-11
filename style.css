@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 nav {
@@ -41,4 +42,25 @@ nav {
     margin: 0 auto;
     cursor: pointer;
     color: #ffa31a;
+}
+
+ul li {
+    display: inline;
+    margin-left: 40px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width:70%;
+    padding: 3rem;
+    box-shadow: 10px 10px 40px 5px #e0e0e0;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
